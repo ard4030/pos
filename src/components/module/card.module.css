@@ -1,0 +1,135 @@
+
+.contImage{
+    position: relative;
+    height: 191px;
+    width: 196px;
+    margin: auto;
+      margin-top: auto;
+    margin-top: 20px;
+}
+
+.item{
+    width: 23%;
+    border-radius: 10px;
+    padding: 19px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 12px 20px #e3e3e3;
+    position: relative;
+}
+
+.item h5{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 26px;
+    height: 53px;
+    overflow: hidden;
+}
+
+.itemfooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.itemfooter > a{
+    font-size: 14px;
+    color: var(--lightcol);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 8px 10px;
+    font-size: 12px;
+    width: 45%;
+    transition: 0.3s all;
+}
+
+.itemfooter > a:hover{
+    color: black!important;
+}
+
+.footSp > span:first-child{
+    font-weight: 500;
+}
+
+.footSp > span:last-child{
+    font-weight: 200!important;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+
+.itemfooter  button{
+    margin-right: 5px;
+    background: #FF735C;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #fff;
+    width: 45%;
+    outline: 1px solid #FF735C;
+    transition: 0.3s all;
+}
+
+.itemfooter >  button:first-child{
+    background: #FF735C!important;
+    color: #fff!important;
+}
+
+.itemfooter >  button:first-child:hover{
+    background: #fff!important;
+    color: #FF735C!important;
+}
+
+.itemfooter > button:last-child{
+    background: #fff!important;
+    color: #FF735C!important;
+}
+
+.itemfooter > button:last-child:hover{
+    background: #FF735C!important;
+    color: #fff!important;
+}
+
+.cardStar {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    width: 50px;
+    z-index: 2;
+    justify-content: space-between;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.cardStar > span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    font-size: 14px;
+}
+
+
+.btEye{
+    width: 20%!important;
+    position: relative;
+}
+
+.btEye > svg{
+    position: absolute;
+width: 17px;
+height: 17px;
+font-size: 14px !important;
+left: 50%;
+top: 50%;
+transform: translateY(-47%) translateX(-50%);
+}
+

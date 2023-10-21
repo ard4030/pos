@@ -1,0 +1,40 @@
+.contFilter{
+    width: 23%;
+    background: #ecedee;
+    border-radius: 5px;
+    padding: 10px;
+    height: max-content;
+
+    position: -webkit-sticky;
+  position: sticky;
+  top: 15px;
+}
+
+.contFilter .item:last-child{
+    border-bottom: none!important;
+    padding-bottom: 0!important;
+}
+
+.item{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.item > *{
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.fl{
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+}
+
+.el1 > *{
+    margin-left: 10px;
+    font-size: 12px!important;
+}

@@ -1,0 +1,127 @@
+.contingAdd header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contingAdd header button{
+    padding: 8px 38px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #e6f7e6;
+    color: green;
+    transition: 0.3s all;
+}
+
+.contingAdd header button:hover{
+    background: green!important;
+    color: #fff!important;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.content > div{
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.desc{
+    width: 70%;
+}
+
+.imgs{
+    width: 27%;
+}
+
+.itemDes {
+    margin-bottom: 10px;
+}
+
+.itemDes > *{
+    display: block;
+}
+
+.itemDes > label{
+    font-size: 14px;
+}
+
+.itemDes > input{
+    width: 100%;
+    border: none;
+    background: #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.itemDes > select{
+    border: none;
+    background: #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.teck{
+    width: 70%;
+    margin-top: 30px;
+}
+
+.teck > div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.teck > div > *{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.teck > div input{
+    background: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.delButt{
+    padding: 7px 10px;
+    border: none;
+    background: #fce1e1;
+    color: #e66262;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+
+.delButt:hover{
+    background: #a43838!important;
+    color: #fff!important;
+}
+
+.addButt{
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: navajowhite;
+    background: #009ce0;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.addButt:hover{
+    background: #fff!important;
+    color: #009ce0!important;
+    outline: 2px solid #009ce0!important;
+}

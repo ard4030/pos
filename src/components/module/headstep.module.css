@@ -1,0 +1,36 @@
+.contHeadLay{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 29px;
+    /* border: 1px solid #eee; */
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-top: 100px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px #ebebeb;
+}
+
+.contHeadLay > .active a{
+    color: #ff7963;
+}
+
+.contHeadLay > .active svg{
+    color: #ff7963;
+}
+
+.contHeadLay > svg:last-child{
+    display: none;
+}
+
+.contHeadLay > a{
+    color: var(--lightcol);
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.contHeadLay > div svg{
+    display: block;
+    margin: auto;
+    font-size: 26px;
+}

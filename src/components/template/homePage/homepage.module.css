@@ -1,0 +1,142 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 78vh!important;
+    margin-top: -40px;
+}
+
+.home > div{
+    width: 49%;
+    min-height: 100px;
+}
+
+.imgHoming{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.leftDiv{
+    direction: rtl;
+    text-align: right;
+}
+
+.leftDiv > h2{
+    font-weight: 700;
+    line-height: 47px;
+    position: relative;
+    /* padding-top: 40px; */
+}
+
+/* .leftDiv > h2::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    border-radius: 100px;
+    background: var(--color);
+    content: "";
+} */
+
+.leftDiv > p {
+    margin-top: 17px;
+    color: var(--lightcol);
+    font-weight: 200;
+}
+
+.leftDiv > a{
+    padding: 16px 120px;
+    border: none;
+    background: var(--color);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 10px #b7b7b74d;
+    margin-top: 20px;
+    transition: 0.5s all;
+    display: inline-block;
+}
+
+.leftDiv > a:hover{
+    outline: 2px solid var(--color);
+    background: #fff!important;
+    box-shadow: none!important;
+    transform: translateY(-10%);
+    color: var(--color);
+}
+
+.elementing{
+    margin-top: 40px;
+}
+
+.elementing > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.elementing > div:first-child span:first-child{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url('../../../../public/Images/smartphone.png') no-repeat center;
+    background-size: 100% 100%;
+
+    margin-left: 10px;
+}
+
+.elementing > div:nth-child(2) span:first-child{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url('../../../../public/Images/phone-call.png') no-repeat center;
+    background-size: 100% 100%;
+    margin-left: 10px;
+}
+
+/* .btShop{
+    padding: 12px 20px;
+    background: #2196F3;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 49px #2196F32B;
+    transition: 0.3s all;
+}
+
+.btShop:hover{
+    background: #1976D2;
+    transform: scale(1.2);
+    box-shadow: none!important;
+} */
+
+.leftDiv{
+    position: relative;
+}
+
+.leftDiv::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: url(../../../../public/Images/pos.png) no-repeat center;
+    background-size: 100% 100%;
+    transition: 0.5s all;
+    animation-name: homingAnim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes homingAnim {
+    0% {transform: translateY(0%);}
+    25% {transform: translateY(50%);}
+    50% {transform: translateY(100%);}
+    75% {transform: translateY(50%);}
+    100% {transform: translateY(0%);}
+  }

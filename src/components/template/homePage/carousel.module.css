@@ -1,0 +1,14 @@
+.imaging{
+    position: relative;
+    width: 74px;
+    height: 25px;
+    margin: auto;
+}
+
+.contcar{
+    margin-top: 30px;
+}
+
+.contsli{
+    text-align: center!important;
+}

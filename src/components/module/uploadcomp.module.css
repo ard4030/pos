@@ -1,0 +1,121 @@
+.itemUpload{
+    width: 23%;
+    min-height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* margin-left: 2%; */
+    background: #f2f2f2;
+}
+
+.itemUpload > button{
+    background: #fff;
+    color: #ed3232;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    z-index: 5;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deling{
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    transition: 0.3s all;
+    font-size: 20px;
+}
+
+.itemUpload > button:hover{
+    transform: scale(1.1);
+}
+
+.itemUpload.mic::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000080;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 4;
+}
+
+.status{
+    background: red;
+    position: absolute;
+    z-index: 5;
+    top: 10px;
+    right: 19px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.org{
+    background: #fff;
+    color: orange;
+}
+
+.gre{
+    background: #fff;
+    color: rgb(45, 155, 45);
+}
+
+.red{
+    background: #fff;
+    color: #ed3232;
+}
+
+/* .itemUpload > input[type=file]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+} */
+
+.elInp{
+    position: relative;
+}
+
+.elInp > input{
+    position: relative;
+    z-index: 20;
+    opacity: 0;
+    width: 100%;
+    height: 184px;
+}
+
+.elInp > div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.elInp > div button{
+    margin-top: 20px;
+    background: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: 2px solid #FFF;
+    color: var(--color);
+    box-shadow: 0px 1px 10px #cdcdcd;
+}

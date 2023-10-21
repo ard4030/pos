@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.contStep3 > p {
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--lightcol);
+}

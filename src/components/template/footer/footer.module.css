@@ -1,0 +1,33 @@
+.footer{
+    color: #fff;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.footer > p{
+    margin: 0;
+    color: var(--lightcol);
+    font-size: 14px;
+}
+
+.footer .icons span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.footer .icons span:first-child{
+    background: url('../../../../public/Images/instagram.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.footer .icons span:last-child{
+    background: url('../../../../public/Images/whatsapp.png') no-repeat center;
+    background-size: 100% 100%;
+}
